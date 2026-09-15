@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalicon Amorim — Desenvolvedor de Software | Portfólio Interativo</title>
+  <meta name="description" content="Portfólio de Engenharia de Software de Kalicon Amorim. Estudante de ADS na FIAP (2026), focado em desenvolvimento de sistemas reais com IA, e-commerce, saúde pública e arquitetura corporativa.">
+  <meta name="keywords" content="Kalicon Amorim, Desenvolvedor de Software, FIAP, Java, Spring Boot, JavaScript, TypeScript, MongoDB, Claravellas, RHUB">
+  <meta name="author" content="Kalicon Amorim">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kalicon Amorim — Engenharia de Software & Portfólio Interativo">
+  <meta property="og:description" content="Estudante de ADS na FIAP (2026). Desenvolvendo sistemas reais de ponta a ponta acelerados por IA.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kalicon.github.io">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Efeito de Fundo Luminoso -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Barra de Navegação -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <span class="brand-bracket">&lt;</span>
+        <span class="brand-name">Kalicon</span>
+        <span class="brand-dot">.</span>
+        <span class="brand-suffix">dev</span>
+        <span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#experiencia-scroll" class="nav-link">Código &amp; Projetos</a>
+        <a href="#arsenal" class="nav-link">Stack</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-snake-trigger" id="btnOpenSnake" title="Jogar Cobrinha (Easter Egg)">
+          <span class="snake-icon">🕹️</span>
+          <span class="snake-label">Jogar Cobrinha</span>
+        </button>
+        <a href="https://github.com/Kalicon" target="_blank" rel="noopener noreferrer" class="btn-github-link">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção Hero -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="status-pulse"></span>
+          <span>FIAP (ADS, 2026) • Aprendizado Contínuo com IA</span>
+        </div>
+
+        <h1 class="hero-title">
+          Construindo sistemas de <span class="text-gradient">ponta a ponta</span> com foco em resultados reais.
+        </h1>
+
+        <p class="hero-subtitle">
+          Olá! Sou o <strong>Kalicon Amorim</strong>. Em vez de ficar preso em tutoriais teóricos, utilizo Inteligência Artificial e fundamentos de programação para projetar, codificar e colocar no ar plataformas completas — do e-commerce à saúde pública.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#experiencia-scroll" class="btn-primary">
+            Explorar Código &amp; Projetos
+            <span class="arrow-down">↓</span>
+          </a>
+          <a href="mailto:kalicon.amorim@hotmail.com" class="btn-secondary">
+            Entrar em Contato
+          </a>
+        </div>
+
+        <!-- Terminal Quick Status -->
+        <div class="hero-terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="terminal-title">kalicon@fiap-dev: ~/status.json</span>
+            <span class="terminal-lang">json</span>
+          </div>
+          <div class="terminal-body">
+            <pre><code><span class="tok-brace">{</span>
+  <span class="tok-key">"desenvolvedor"</span>: <span class="tok-str">"Kalicon Amorim"</span>,
+  <span class="tok-key">"formacao"</span>: <span class="tok-str">"Análise e Desenv. de Sistemas @ FIAP (2026)"</span>,
+  <span class="tok-key">"filosofia"</span>: <span class="tok-str">"Aprender construindo software de verdade"</span>,
+  <span class="tok-key">"superpoder"</span>: <span class="tok-str">"Desenvolvimento acelerado por Inteligência Artificial"</span>,
+  <span class="tok-key">"apps_em_producao"</span>: <span class="tok-arr">[</span><span class="tok-str">"Claravellas (E-Commerce)"</span>, <span class="tok-str">"RHUB (PWA CLT)"</span>, <span class="tok-str">"SES-SP Hospital"</span><span class="tok-arr">]</span>
+<span class="tok-brace">}</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="section about-section" id="sobre">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Autenticidade &amp; Método</span>
+          <h2 class="section-title">Como eu penso e construo</h2>
+          <p class="section-desc">Sem falsas senioridades. Uma visão honesta sobre como um estudante apaixonado por tecnologia usa as melhores ferramentas de 2026 para entregar valor prático.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🚀</div>
+            <h3>Projetos Reais vs. Teoria</h3>
+            <p>Não fico acumulando certificados de cursos sem colocar a mão na massa. Meus repositórios resolvem problemas autênticos: do cálculo trabalhista da CLT até o dimensionamento de enfermagem em hospital estadual.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🤖</div>
+            <h3>IA como Alavanca Técnica</h3>
+            <p>Uso ferramentas modernas de IA como um acelerador de produtividade para planejar arquitetura, sugerir testes e desatar gargalos, mantendo sempre o raciocínio crítico e a validação do produto.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🧩</div>
+            <h3>Visão End-to-End</h3>
+            <p>Entendo que um botão bonito não serve sem um backend seguro e um banco de dados consistente. Gosto de entender toda a esteira: UI, regras de negócio, APIs, integridade e deploy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO HERO DO SCROLL DE CÓDIGO INTERATIVO -->
+    <section class="section code-scroll-section" id="experiencia-scroll">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Scroll-Driven Code Engine</span>
+          <h2 class="section-title">Role a tela para ver o código em ação</h2>
+          <p class="section-desc">Conforme você desce a página, nosso editor interativo digita em tempo real os trechos de código que dão vida a cada um dos meus projetos emblemáticos.</p>
+        </div>
+
+        <div class="scroll-showcase-layout">
+          <!-- Coluna Esquerda: Descrição dos Projetos com Triggers de Scroll -->
+          <div class="project-scroll-cards">
+            <!-- Projeto 1: Claravellas -->
+            <article class="scroll-step-card" data-step="claravellas">
+              <div class="step-indicator">01 / E-Commerce</div>
+              <h3 class="step-title">Claravellas — E-Commerce de Velas Personalizadas</h3>
+              <p class="step-desc">
+                Plataforma de comércio eletrônico de alto padrão para velas aromáticas e presentes artesanais. Desenvolvida para alta velocidade de carregamento, checkout seguro e inteligência de vendas.
+              </p>
+              <ul class="step-highlights">
+                <li>Integração de pagamentos com Stripe (Checkout seguro e webhooks).</li>
+                <li>Persistência e catálogo em MongoDB Atlas.</li>
+                <li>Painel administrativo de controle de pedidos e estoque (BI).</li>
+              </ul>
+              <div class="step-links">
+                <a href="https://claravellas-three.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-step-link live">
+                  Acessar Loja Online ↗
+                </a>
+                <span class="tag-private">Repositório Privado (Em Produção)</span>
+              </div>
+            </article>
+
+            <!-- Projeto 2: RHUB -->
+            <article class="scroll-step-card" data-step="rhub">
+              <div class="step-indicator">02 / PWA &amp; CLT</div>
+              <h3 class="step-title">RHUB — Suíte de Cálculos Trabalhistas</h3>
+              <p class="step-desc">
+                Solução web desenvolvida como desafio acadêmico para automatizar regras complexas da legislação brasileira (CLT) e simular custos de contratação CLT vs. PJ com ponto de equilíbrio.
+              </p>
+              <ul class="step-highlights">
+                <li>100% offline via Progressive Web App (Service Worker).</li>
+                <li>14 testes unitários automatizados no Vitest com 100% de aprovação.</li>
+                <li>Exportação de planilhas Excel estruturadas com SheetJS e impressão executiva.</li>
+              </ul>
+              <div class="step-links">
+                <a href="https://kalicon.github.io/RHUB/" target="_blank" rel="noopener noreferrer" class="btn-step-link live">
+                  Testar App Online ↗
+                </a>
+                <a href="https://github.com/Kalicon/RHUB" target="_blank" rel="noopener noreferrer" class="btn-step-link code">
+                  Ver Código Fonte
+                </a>
+              </div>
+            </article>
+
+            <!-- Projeto 3: Calculadora Hospitalar -->
+            <article class="scroll-step-card" data-step="calculadora">
+              <div class="step-indicator">03 / Saúde Pública (SES-SP)</div>
+              <h3 class="step-title">Calculadora de Escalas Hospitalares (HMLMB)</h3>
+              <p class="step-desc">
+                Ferramenta criada para apoio às chefias e equipes do Hospital Maternidade Leonor Mendes de Barros (UGA IV), resolvendo o desafio matemático de plantões fracionados.
+              </p>
+              <ul class="step-highlights">
+                <li>Algoritmo de compensação cíclica de plantões que zera o saldo no semestre.</li>
+                <li>Dimensionamento assistencial de enfermagem baseado na Resolução COFEN 743/2024.</li>
+                <li>Orientador de limites de plantão extra segundo a Lei Complementar Estadual 1176/2012.</li>
+              </ul>
+              <div class="step-links">
+                <a href="https://kalicon.github.io/Calculadora/" target="_blank" rel="noopener noreferrer" class="btn-step-link live">
+                  Acessar Painel Online ↗
+                </a>
+                <a href="https://github.com/Kalicon/Calculadora" target="_blank" rel="noopener noreferrer" class="btn-step-link code">
+                  Ver Código Fonte
+                </a>
+              </div>
+            </article>
+
+            <!-- Projeto 4: IntraHub -->
+            <article class="scroll-step-card" data-step="intrahub">
+              <div class="step-indicator">04 / Enterprise Backend</div>
+              <h3 class="step-title">IntraHub — Portal Corporativo &amp; Intranet</h3>
+              <p class="step-desc">
+                Demonstrativo de arquitetura corporativa em Java 17 e Spring Boot 3, projetado para centralização operacional, trilha de auditoria e alta rastreabilidade.
+              </p>
+              <ul class="step-highlights">
+                <li>Controle de acesso granular baseado em papéis (RBAC) com Spring Security 6.</li>
+                <li>Replicação automatizada de escalas departamentais em lote.</li>
+                <li>Documentação integrada de API via OpenAPI 3 / Swagger UI.</li>
+              </ul>
+              <div class="step-links">
+                <a href="https://github.com/Kalicon/IntraHub" target="_blank" rel="noopener noreferrer" class="btn-step-link code">
+                  Ver Código Fonte
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Coluna Direita: Editor Sticky com Digitação em Tempo Real -->
+          <div class="sticky-editor-container">
+            <div class="ide-window">
+              <div class="ide-header">
+                <div class="ide-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="ide-tab active" id="ideTabTitle">
+                  <span class="tab-icon">⚡</span>
+                  <span id="ideFileName">checkout.js</span>
+                </div>
+                <div class="ide-badge" id="ideProjectBadge">Claravellas</div>
+              </div>
+              <div class="ide-code-area">
+                <div class="line-numbers" id="lineNumbers"></div>
+                <pre class="code-content"><code id="codeOutput">// Role a página para ver o código sendo escrito...</code><span class="code-cursor"></span></pre>
+              </div>
+              <div class="ide-footer">
+                <span id="ideStatusText">Modo Scroll Ativo</span>
+                <span>UTF-8 • JavaScript / Java • Kalicon Studio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Arsenal Tecnológico -->
+    <section class="section arsenal-section" id="arsenal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Arsenal Técnico</span>
+          <h2 class="section-title">Tecnologias que utilizo no dia a dia</h2>
+          <p class="section-desc">Ferramentas que domino e utilizo para transformar ideias em software em produção.</p>
+        </div>
+
+        <div class="stack-categories">
+          <!-- Backend & APIs -->
+          <div class="stack-category-card">
+            <h3>Backend, APIs &amp; Regras</h3>
+            <div class="tag-cloud">
+              <span class="tech-tag">Java 17+</span>
+              <span class="tech-tag">Spring Boot 3</span>
+              <span class="tech-tag">Spring Security 6</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">RESTful APIs</span>
+              <span class="tech-tag">OpenAPI / Swagger</span>
+              <span class="tech-tag">Hibernate / JPA</span>
+            </div>
+          </div>
+
+          <!-- Frontend & Mobile -->
+          <div class="stack-category-card">
+            <h3>Frontend, UI &amp; Mobile</h3>
+            <div class="tag-cloud">
+              <span class="tech-tag">JavaScript (ES6+)</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">HTML5 Semântico</span>
+              <span class="tech-tag">CSS3 / Tailwind CSS</span>
+              <span class="tech-tag">Progressive Web App (PWA)</span>
+              <span class="tech-tag">Android (Kotlin / Compose)</span>
+              <span class="tech-tag">Chart.js</span>
+            </div>
+          </div>
+
+          <!-- Banco de Dados & Qualidade -->
+          <div class="stack-category-card">
+            <h3>Dados, Testes &amp; DevOps</h3>
+            <div class="tag-cloud">
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">MongoDB Atlas</span>
+              <span class="tech-tag">H2 Database</span>
+              <span class="tech-tag">Vitest (Testes Unitários)</span>
+              <span class="tech-tag">JUnit 5</span>
+              <span class="tech-tag">Git / GitHub Actions</span>
+              <span class="tech-tag">Vercel &amp; GitHub Pages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="section contact-section" id="contato">
+      <div class="container text-center">
+        <div class="contact-card">
+          <span class="section-eyebrow">Conexão &amp; Oportunidades</span>
+          <h2 class="section-title">Bora construir algo juntos?</h2>
+          <p class="contact-text">
+            Se você busca um desenvolvedor dedicado, focado em entregar soluções práticas, que aprende rápido e não tem medo de desafios reais, entre em contato:
+          </p>
+
+          <div class="contact-actions">
+            <a href="mailto:kalicon.amorim@hotmail.com" class="btn-primary email-btn">
+              <span>📧</span> kalicon.amorim@hotmail.com
+            </a>
+            <a href="https://github.com/Kalicon" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              Visitar Perfil no GitHub
+            </a>
+          </div>
+
+          <p class="contact-note">
+            São Paulo, SP — Brasil • Aberto para projetos e oportunidades de estágio / júnior
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Desenvolvido com foco em engenharia prática e evolução contínua. © Kalicon Amorim</p>
+      <div class="footer-links">
+        <a href="https://github.com/Kalicon" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:kalicon.amorim@hotmail.com">Email</a>
+        <button class="footer-snake-btn" id="btnFooterSnake">Jogar Cobrinha</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL DO EASTER EGG DA COBRINHA (SNAKE GAME) -->
+  <div class="modal-overlay" id="snakeModal">
+    <div class="modal-content snake-modal">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <span class="arcade-title">🕹️ RETRO SNAKE — Commits Edition</span>
+          <span class="arcade-badge">Easter Egg</span>
+        </div>
+        <button class="modal-close" id="btnCloseSnake" aria-label="Fechar jogo">&times;</button>
+      </div>
+
+      <div class="snake-game-wrapper">
+        <div class="game-hud">
+          <div class="hud-item">
+            <span class="hud-label">PONTOS</span>
+            <span class="hud-value" id="snakeScore">0</span>
+          </div>
+          <div class="hud-item">
+            <span class="hud-label">RECORDE</span>
+            <span class="hud-value" id="snakeHighScore">0</span>
+          </div>
+          <div class="hud-item">
+            <span class="hud-label">COMMITS COMIDOS</span>
+            <span class="hud-value" id="snakeCommits">0</span>
+          </div>
+        </div>
+
+        <canvas id="snakeCanvas" width="400" height="400"></canvas>
+
+        <div class="game-controls-help">
+          <p>Use as <strong>Setas do Teclado</strong> ou <strong>W, A, S, D</strong> para guiar a cobrinha e coletar os commits verdes!</p>
+        </div>
+
+        <!-- Controles para Mobile / Touch -->
+        <div class="mobile-dpad" id="mobileDpad">
+          <button class="dpad-btn up" data-dir="UP">▲</button>
+          <div class="dpad-middle">
+            <button class="dpad-btn left" data-dir="LEFT">◀</button>
+            <button class="dpad-btn pause" id="btnPauseGame">⏸</button>
+            <button class="dpad-btn right" data-dir="RIGHT">▶</button>
+          </div>
+          <button class="dpad-btn down" data-dir="DOWN">▼</button>
+        </div>
+
+        <div class="game-over-overlay" id="gameOverOverlay">
+          <h3>FIM DE JOGO!</h3>
+          <p>Sua pontuação: <span id="finalScore">0</span></p>
+          <button class="btn-primary" id="btnRestartGame">Jogar Novamente</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
